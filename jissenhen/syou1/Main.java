@@ -1,4 +1,6 @@
 package syou1;
+import static syou1.AccountType.*;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -119,6 +121,6 @@ public class Main {
 			System.out.println("発行日：" + f.format(i.getPublishDate()) + " " + i.getTitle());
 		}
 		
-		
-		}
+		Account a = new Account("1732050", FUTSU);
+	}
 }
